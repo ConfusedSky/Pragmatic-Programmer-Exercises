@@ -1,0 +1,28 @@
+orders
+
+C
+Java
+C#
+python
+
+# Add a product
+# to the 'on-order' list
+M Add Product
+F id         int
+F name       char[30]
+F order_code int
+E
+
+# Request a products info
+# using its id
+M Request Product
+F id         int
+E
+
+# Returns a products info
+# From the request message
+M Product Response
+F id         int
+F name       char[30]
+F order_code int
+E
